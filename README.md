@@ -20,19 +20,20 @@ To set up the project on your local machine, follow these steps:
    git clone <repository-url>
    cd <repository-directory>
 2. Create virtual environment:
+   
    python -m venv venv
    source venv/bin/activate  # For Linux/macOS
    venv\Scripts\activate  # For Windows
-3. Install required packages:
+4. Install required packages:
    pip install -r requirements.txt
-4. Launch Streamlit app:
+5. Launch Streamlit app:
    streamlit run app.py
 
-##Usage
+## Usage
 Once the Streamlit application is running, you can use the web interface to input an SMS message and get a prediction on whether it's spam or not. The classifier will output "Spam" or "Not Spam" based on the trained model's prediction.
 
-##Contributing
+## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please open an issue or submit a pull request. Make sure to follow the existing code style and include appropriate documentation with your changes.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
